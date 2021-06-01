@@ -4,11 +4,11 @@ The best fishermen and fisherwomen keep a log of their fishing. The goal of this
 
 ## Project Goals
 
-The main function of this project is to apply the Java skills I am learning to create a program that will actually be useful to my passion for fishing.
+The main function of this project is to apply the Java skills I am learning to create a program that will be beneficial to the average fisherman.
 
 ## Functionality Goals
 
-As my skills progress I hope to add the following functionality, not necessarily in order:
+As my skills progress I hope to add the following functionality (not necessarily in order):
 
 - Command line app that takes a trip report with data such as location, species caught, size, weather conditions, method used, time of year, and notes.
 - Save data in user file and allow for multiple users.

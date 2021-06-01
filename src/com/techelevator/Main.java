@@ -17,11 +17,11 @@ public class Main {
         System.out.println("#################################");
 
         // options: fill out trip report, print trip reports,
-        System.out.println("[1] Add trip report\n[2] Print trip reports");
+        System.out.println("[1] Add a trip report\n[2] Print trip reports");
         String reportAdd = userInput.nextLine();
 
         while (reportAdd.equals("1")) {
-            tripLogDataInput(tripList);
+            tripDataInput(tripList);
             System.out.println("Add another trip report? [y/n]");
             String reportAddAnother = userInput.nextLine();
             if (reportAddAnother.equals("n")) {
@@ -46,7 +46,7 @@ public class Main {
         }
     }
 
-    private static void tripLogDataInput(List<Trip> tripList) {
+    private static void tripDataInput(List<Trip> tripList) {
         System.out.println("Trip date: ");
         String tripDate = userInput.nextLine();
 
@@ -61,7 +61,7 @@ public class Main {
         newTrip.setDate(tripDate);
         newTrip.setWeather(weatherInput);
 
-        System.out.println("Add fish to the log? [y/n]");
+        System.out.println("Add a fish to the log? [y/n]");
         String fishAdd = userInput.nextLine();
         while (fishAdd.equals("y")) {
             System.out.println("Enter fish species caught: ");
