@@ -10,6 +10,17 @@ public class Trip {
     private String comments = "-";
     private List<String> catchList = new ArrayList<>(); // might change this to list of fish
 
+    public Trip(String date, String location, String weather, String comments) {
+        this.date = date;
+        this.location = location;
+        this.weather = weather;
+        this.comments = comments;
+    }
+
+    public Trip(String location) {
+        this.location = location;
+    }
+
     public List<String> getCatchList() {
         return catchList;
     }
@@ -22,9 +33,6 @@ public class Trip {
         this.date = date;
     }
 
-    public Trip(String location) {
-        this.location = location;
-    }
 
     public String getLocation() {
         return location;
