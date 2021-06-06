@@ -24,7 +24,7 @@ public class TripLog {
                 String str = tripArray[4];
                 String newStr = str.replaceAll("\\[", "");
                 String newNewStr = newStr.replaceAll("]", "");
-                String[] array = newNewStr.split(". ");
+                String[] array = newNewStr.split(", ");
                 for (String s : array) {
                     newTrip.addCatch(s);
                 }

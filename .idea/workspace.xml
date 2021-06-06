@@ -121,8 +121,8 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JAR Application.FishingLogJar" />
       <item itemvalue="Application.Application" />
+      <item itemvalue="JAR Application.FishingLogJar" />
     </list>
     <recent_temporary>
       <list>

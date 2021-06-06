@@ -25,9 +25,14 @@ public class Application {
         File tripData = new File("savedTrips.txt");
         TripLog tripLog = new TripLog();
         tripLog.populateTripList(tripData);
-        System.out.println("#################################");
-        System.out.println("Welcome to Bennett's fishing log.");
-        System.out.println("#################################");
+        System.out.println("\n" +
+                " ______                                 _         _______ _      _     _                _                  \n" +
+                "(____  \\                         _   _ ( )       (_______|_)    | |   (_)              | |                 \n" +
+                " ____)  ) ____ ____  ____   ____| |_| ||/  ___    _____   _  ___| | _  _ ____   ____   | |      ___   ____ \n" +
+                "|  __  ( / _  )  _ \\|  _ \\ / _  )  _)  _) /___)  |  ___) | |/___) || \\| |  _ \\ / _  |  | |     / _ \\ / _  |\n" +
+                "| |__)  | (/ /| | | | | | ( (/ /| |_| |__|___ |  | |     | |___ | | | | | | | ( ( | |  | |____| |_| ( ( | |\n" +
+                "|______/ \\____)_| |_|_| |_|\\____)\\___)___|___/   |_|     |_(___/|_| |_|_|_| |_|\\_|| |  |_______)___/ \\_|| |\n" +
+                "                                                                              (_____|               (_____|\n");
 
         while (true) {
             String selection = ui.promptForSelection(MAIN_MENU_OPTIONS);
