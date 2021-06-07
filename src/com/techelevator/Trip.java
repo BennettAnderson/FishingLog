@@ -8,7 +8,7 @@ public class Trip {
     private String location;
     private String weather = "-";
     private String comments = "-";
-    private List<String> catchList = new ArrayList<>(); // might change this to list of fish
+    private List<Fish> catchList = new ArrayList<>(); // might change this to list of fish
 
     public Trip(String date, String location, String weather, String comments) {
         this.date = date;
@@ -21,7 +21,7 @@ public class Trip {
         this.location = location;
     }
 
-    public List<String> getCatchList() {
+    public List<Fish> getCatchList() {
         return catchList;
     }
 
@@ -54,7 +54,7 @@ public class Trip {
         this.comments = comments;
     }
 
-    public void addCatch(String fish) {
+    public void addCatch(Fish fish) {
         catchList.add(fish);
     }
 

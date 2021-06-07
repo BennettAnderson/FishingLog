@@ -18,15 +18,14 @@ public class TripLog {
         try (Scanner tripScanner = new Scanner(inputFile)) {
             while (tripScanner.hasNextLine()) {
                 String line = tripScanner.nextLine();
-                //date|String location|String weather|String comments|List<String> catchList
                 String[] tripArray = line.split("\\|");
                 Trip newTrip = new Trip(tripArray[0], tripArray[1], tripArray[2], tripArray[3]);
                 String str = tripArray[4];
-                String newStr = str.replaceAll("\\[", "");
-                String newNewStr = newStr.replaceAll("]", "");
-                String[] array = newNewStr.split(", ");
+                String[] array = str.split("\\^");
                 for (String s : array) {
-                    newTrip.addCatch(s);
+                    String[] strArray = s.split(", ");
+                    Fish fish = new Fish(strArray[0], strArray[1], strArray[2]);
+                    newTrip.getCatchList().add(fish);
                 }
                 tripList.add(newTrip);
             }
@@ -38,8 +37,13 @@ public class TripLog {
     public void printDataToFile(File inputFile) {
         try (PrintWriter printLine = new PrintWriter(inputFile)) {
             for (Trip trip : tripList) {
+                StringBuilder catchStr = new StringBuilder();
+                for (Fish fish : trip.getCatchList()) {
+                    catchStr.append(fish.fishDataString());
+                }
                 printLine.println(trip.getDate() + "|" + trip.getLocation() + "|" +
-                        trip.getWeather() + "|" + trip.getComments() + "|" + trip.getCatchList());
+                        trip.getWeather() + "|" + trip.getComments() + "|" + catchStr);
+
             }
         } catch (Exception e) {
             System.out.println("Cannot find file");
@@ -66,7 +70,14 @@ public class TripLog {
         while (fishAdd.equalsIgnoreCase("y")) {
             System.out.print("Enter fish species caught: ");
             String fishCaught = userInput.nextLine();
-            newTrip.addCatch(fishCaught);
+            Fish fish = new Fish(fishCaught);
+            newTrip.addCatch(fish);
+            System.out.print("Lure/bait/fly used: ");
+            String lureUsed = userInput.nextLine();
+            fish.setLure(lureUsed);
+            System.out.print("Approximate length (in): ");
+            String length = userInput.nextLine();
+            fish.setLength(length);
             System.out.print("Add another fish to the log? [y/n]: ");
             fishAdd = userInput.nextLine();
         }
@@ -86,8 +97,8 @@ public class TripLog {
             System.out.println("Date: " + trip.getDate());
             System.out.println("Weather Conditions: " + trip.getWeather());
             System.out.println("Catch: ");
-            for (String fish : trip.getCatchList()) {
-                System.out.println(" - " + fish);
+            for (Fish fish : trip.getCatchList()) {
+                System.out.println(" - " + fish.getSpecies() + " | " + fish.getLength() + "\" | " + fish.getLure());
             }
             System.out.println("Notes: " + trip.getComments());
             System.out.println();

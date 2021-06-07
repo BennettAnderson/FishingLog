@@ -1,15 +1,25 @@
 package com.techelevator;
 
-public abstract class Fish {
+public class Fish {
     private String species;
-    private int length;
+    private String length;
     private String lure;
 
     public Fish(String species) {
         this.species = species;
     }
 
-    public void setLength(int length) {
+    public Fish(String species, String length, String lure) {
+        this.species = species;
+        this.length = length;
+        this.lure = lure;
+    }
+
+    public String fishDataString() {
+        return species + ", " + length + ", " + lure + "^";
+    }
+
+    public void setLength(String length) {
         this.length = length;
     }
 
@@ -21,7 +31,7 @@ public abstract class Fish {
         return species;
     }
 
-    public int getLength() {
+    public String getLength() {
         return length;
     }
 
