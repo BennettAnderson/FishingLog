@@ -38,4 +38,9 @@ public class Fish {
     public String getLure() {
         return lure;
     }
+
+    @Override
+    public String toString() {
+        return " - " + species + " (" + length + "\") -" + lure;
+    }
 }

@@ -3,6 +3,7 @@ package com.techelevator;
 import com.techelevator.view.MenuDrivenCLI;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Application {
@@ -15,16 +16,16 @@ public class Application {
     private final MenuDrivenCLI ui = new MenuDrivenCLI();
     private static Scanner userInput = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public Application() throws FileNotFoundException {
+    }
+
+    public static void main(String[] args) throws FileNotFoundException {
         Application application = new Application();
         application.run();
     }
 
-    public void run() {
-        // need to populate the list at startup
-        File tripData = new File("savedTrips.txt");
-        TripLog tripLog = new TripLog();
-        tripLog.populateTripList(tripData);
+    public void run() throws FileNotFoundException {
+
         System.out.println("\n" +
                 " ______                                 _         _______ _      _     _                _                  \n" +
                 "(____  \\                         _   _ ( )       (_______|_)    | |   (_)              | |                 \n" +
@@ -36,13 +37,16 @@ public class Application {
 
         while (true) {
             String selection = ui.promptForSelection(MAIN_MENU_OPTIONS);
-            if (selection.equals(MAIN_MENU_OPTION_ADD_TRIP_REPORT)) {
-                tripLog.tripDataInput();
-            } else if (selection.equals(MAIN_MENU_OPTION_PRINT_REPORTS)) {
-                tripLog.printTripReports();
-            } else if (selection.equals(MAIN_MENU_OPTION_EXIT)) {
-                tripLog.printDataToFile(tripData);
-                System.exit(0);
+            switch (selection) {
+                case MAIN_MENU_OPTION_ADD_TRIP_REPORT:
+                    ui.getMenu().tripDataInput();
+                    break;
+                case MAIN_MENU_OPTION_PRINT_REPORTS:
+                    ui.getMenu().getTripLog().toString();
+                    break;
+                case MAIN_MENU_OPTION_EXIT:
+                    ui.getMenu().getTripLog();
+                    System.exit(0);
             }
         }
 
