@@ -36,13 +36,16 @@ public class Application {
 
         while (true) {
             String selection = ui.promptForSelection(MAIN_MENU_OPTIONS);
-            if (selection.equals(MAIN_MENU_OPTION_ADD_TRIP_REPORT)) {
-                tripLog.tripDataInput();
-            } else if (selection.equals(MAIN_MENU_OPTION_PRINT_REPORTS)) {
-                tripLog.printTripReports();
-            } else if (selection.equals(MAIN_MENU_OPTION_EXIT)) {
-                tripLog.printDataToFile(tripData);
-                System.exit(0);
+            switch (selection) {
+                case MAIN_MENU_OPTION_ADD_TRIP_REPORT:
+                    tripLog.tripDataInput();
+                    break;
+                case MAIN_MENU_OPTION_PRINT_REPORTS:
+                    tripLog.printTripReports();
+                    break;
+                case MAIN_MENU_OPTION_EXIT:
+                    tripLog.printDataToFile(tripData);
+                    System.exit(0);
             }
         }
 
