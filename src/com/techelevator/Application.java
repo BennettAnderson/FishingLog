@@ -5,10 +5,7 @@ import com.techelevator.view.MenuDrivenCLI;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class Application {
 
@@ -19,7 +16,8 @@ public class Application {
 
     private final MenuDrivenCLI ui = new MenuDrivenCLI();
     private static Scanner userInput = new Scanner(System.in);
-    private Map<Trip, List> trips = new HashMap<>();
+    private List<Trip> tripList = new ArrayList<>();
+    private File tripData = new File("savedTrips.txt");
 
     public static void main(String[] args) {
         Application application = new Application();
@@ -28,8 +26,7 @@ public class Application {
 
     public void run() {
         // need to populate the list at startup
-        File tripData = new File("savedTrips.txt");
-        trips.populateTripMap(tripData);
+        populateTripList(tripData);
         System.out.println("\n" +
                 " ______                                 _         _______ _      _     _                _                  \n" +
                 "(____  \\                         _   _ ( )       (_______|_)    | |   (_)              | |                 \n" +
@@ -44,6 +41,7 @@ public class Application {
             switch (selection) {
                 case MAIN_MENU_OPTION_ADD_TRIP_REPORT:
                     tripDataInput();
+                    printDataToFile(tripData);
                     break;
                 case MAIN_MENU_OPTION_PRINT_REPORTS:
                     printTripReports();
@@ -67,9 +65,9 @@ public class Application {
                 for (String s : array) {
                     String[] strArray = s.split(", ");
                     Fish fish = new Fish(strArray[0], strArray[1], strArray[2]);
-                    newTrip.getCatchList().put(fish);
+                    newTrip.getCatchList().add(fish);
                 }
-                trips.put(newTrip, );
+                tripList.add(newTrip);
             }
         } catch (FileNotFoundException e) {
             System.out.println("Error reading save file");
@@ -85,7 +83,6 @@ public class Application {
                 }
                 printLine.println(trip.getDate() + "|" + trip.getLocation() + "|" +
                         trip.getWeather() + "|" + trip.getComments() + "|" + catchStr);
-
             }
         } catch (Exception e) {
             System.out.println("Cannot find file");
@@ -113,7 +110,7 @@ public class Application {
             System.out.print("Enter fish species caught: ");
             String fishCaught = userInput.nextLine();
             Fish fish = new Fish(fishCaught);
-            newTrip.addCatch(fish);
+            newTrip.addFish(fish);
             System.out.print("Lure/bait/fly used: ");
             String lureUsed = userInput.nextLine();
             fish.setLure(lureUsed);

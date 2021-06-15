@@ -8,6 +8,7 @@ public class Trip {
     private String location;
     private String weather = "-";
     private String comments = "-";
+    private List<Fish> fishList = new ArrayList<>();
 
     public Trip(String date, String location, String weather, String comments) {
         this.date = date;
@@ -49,4 +50,11 @@ public class Trip {
         this.comments = comments;
     }
 
+    public void addFish(Fish fish) {
+        fishList.add(fish);
+    }
+
+    public List<Fish> getCatchList() {
+        return fishList;
+    }
 }
