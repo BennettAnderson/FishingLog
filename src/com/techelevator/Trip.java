@@ -57,4 +57,17 @@ public class Trip {
     public List<Fish> getCatchList() {
         return fishList;
     }
+    
+    @Override
+    public String toString() {
+        StringBuilder fishStr = new StringBuilder();
+        for (Fish fish : fishList) {
+            fishStr.append("\n").append(fish.toString());
+        }
+        return "\n*********************** " + location + " ***********************" +
+                "\nDate: " + date +
+                "\nWeather Conditions: " + weather +
+                "\nCatch: " + fishStr +
+                "\nNotes: " + comments;
+    }
 }

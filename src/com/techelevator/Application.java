@@ -129,18 +129,10 @@ public class Application {
 
     public void printTripReports() {
         System.out.println();
-        System.out.println("####### Fishing Log #######");
+        System.out.println("############### Fishing Log ###############");
         System.out.println();
         for (Trip trip : tripList) {
-            System.out.println("*********************** " + trip.getLocation() + " ***********************");
-            System.out.println("Date: " + trip.getDate());
-            System.out.println("Weather Conditions: " + trip.getWeather());
-            System.out.println("Catch: ");
-            for (Fish fish : trip.getCatchList()) {
-                System.out.println(" - " + fish.getSpecies() + " | " + fish.getLength() + "\" | " + fish.getLure());
-            }
-            System.out.println("Notes: " + trip.getComments());
-            System.out.println();
+            System.out.println(trip.toString());
         }
     }
 

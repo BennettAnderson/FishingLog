@@ -7,8 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfab3743-adc5-44dc-8c10-a8cac8f915be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FishingLog/com/techelevator/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FishingLog/com/techelevator/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FishingLog/com/techelevator/Fish.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FishingLog/com/techelevator/Fish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FishingLog/com/techelevator/Trip.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FishingLog/com/techelevator/Trip.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/savedTrips.txt" beforeDir="false" afterPath="$PROJECT_DIR$/savedTrips.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/techelevator/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techelevator/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/techelevator/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techelevator/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/techelevator/Trip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techelevator/Trip.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +99,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
