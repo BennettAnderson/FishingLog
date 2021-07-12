@@ -15,8 +15,9 @@ public class Application {
 
     private static final String MAIN_MENU_OPTION_ADD_TRIP_REPORT = "Add a trip report";
     private static final String MAIN_MENU_OPTION_PRINT_REPORTS = "View trip reports";
+    private static final String MAIN_MENU_OPTION_PRINT_ALL_FISH = "View all fish caught";
     private static final String MAIN_MENU_OPTION_EXIT = "Exit and save";
-    private static final String[] MAIN_MENU_OPTIONS = {MAIN_MENU_OPTION_ADD_TRIP_REPORT, MAIN_MENU_OPTION_PRINT_REPORTS, MAIN_MENU_OPTION_EXIT};
+    private static final String[] MAIN_MENU_OPTIONS = {MAIN_MENU_OPTION_ADD_TRIP_REPORT, MAIN_MENU_OPTION_PRINT_REPORTS, MAIN_MENU_OPTION_PRINT_ALL_FISH, MAIN_MENU_OPTION_EXIT};
 
     private final Menu menu;
     private final TripDao tripDao;
@@ -49,6 +50,9 @@ public class Application {
                     break;
                 case MAIN_MENU_OPTION_PRINT_REPORTS:
                     printTripReports();
+                    break;
+                case MAIN_MENU_OPTION_PRINT_ALL_FISH:
+                    printAllFish();
                     break;
                 case MAIN_MENU_OPTION_EXIT:
                     System.exit(0);
@@ -150,6 +154,13 @@ public class Application {
             for (Fish fish : fishDao.getFishFromTrip(newId)) {
                 System.out.println(fish.toString());
             }
+        }
+    }
+
+    private void printAllFish() {
+        System.out.println("\n-------------------\n All Fish Caught\n-------------------\n");
+        for (Fish fish : fishDao.getAllFish()) {
+            System.out.println(fish.toString() + "  --  location: " + fishDao.getLocationFromFish(fish.getFishId()));
         }
     }
 
