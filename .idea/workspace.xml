@@ -9,68 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfab3743-adc5-44dc-8c10-a8cac8f915be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_dbcp2_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FishDB.psql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FishDBInitializer.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fishdb.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fishdb.db-journal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/techelevator/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/techelevator/model/FishDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/techelevator/model/JdbcFishDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/techelevator/model/JdbcTripDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/techelevator/model/TripDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/FishDBInitializer.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/FishDBInitializer.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/techelevator/Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/techelevator/model/Fish.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/techelevator/model/FishDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/techelevator/model/JdbcFishDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/techelevator/model/JdbcTripDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/techelevator/model/Lure.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/techelevator/model/Trip.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/techelevator/model/TripDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/techelevator/view/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FishingLog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FishingLog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FishingLog/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FishingLog/com/techelevator/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FishingLog/com/techelevator/Fish.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FishingLog/com/techelevator/Lure.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FishingLog/com/techelevator/Trip.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FishingLog/com/techelevator/TripLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FishingLog/com/techelevator/view/Menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FishingLog/com/techelevator/view/MenuDrivenCLI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/techelevator/view/MenuDrivenCLI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/savedTrips.txt" beforeDir="false" afterPath="$PROJECT_DIR$/savedTrips.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techelevator/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techelevator/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techelevator/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techelevator/model/Fish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techelevator/Lure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techelevator/model/Lure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techelevator/Trip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techelevator/model/Trip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techelevator/TripLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techelevator/view/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techelevator/view/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techelevator/view/MenuDrivenCLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techelevator/view/MenuDrivenCLI.java" afterDir="false" />
-    </list>
+    <list default="true" id="bfab3743-adc5-44dc-8c10-a8cac8f915be" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
