@@ -1,10 +1,10 @@
 # Bennett's Fishing Log
 
-The best fishermen and fisherwomen keep a log of their fishing. The goal of this program is to provide an easy way to log fishing data and organize it in a way that can provide useful insight in an effort to increase fishing success.
+The best anglers keep a log of their fishing. The goal of this program is to provide an easy way to log fishing data and organize it in a way that can provide useful insight in an effort to increase fishing success.
 
 ## Project Goals
 
-The main function of this project is to apply the Java skills I am learning to create a program that will be beneficial to the average fisherman.
+The main function of this project is to apply the Java skills I am learning to create a program that will be beneficial to the average angler.
 
 ## Functionality Goals
 
