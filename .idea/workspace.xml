@@ -10,10 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfab3743-adc5-44dc-8c10-a8cac8f915be" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/FishingLog_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/FishingLog_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FishingLog_jar/FishingLog.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FishingLog_jar/FishingLog.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bennettanderson/controller/TripController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/techelevator/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bennettanderson/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/techelevator/model/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bennettanderson/model/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/techelevator/model/FishDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bennettanderson/model/FishDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/techelevator/model/JdbcFishDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bennettanderson/model/JdbcFishDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/techelevator/model/JdbcTripDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bennettanderson/model/JdbcTripDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/techelevator/model/Lure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bennettanderson/model/Lure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/techelevator/model/Trip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bennettanderson/model/Trip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/techelevator/model/TripDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bennettanderson/model/TripDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/techelevator/view/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bennettanderson/view/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/techelevator/view/MenuDrivenCLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bennettanderson/view/MenuDrivenCLI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
