@@ -10,4 +10,5 @@ public interface TripDao {
 
     public Trip addTrip(Trip trip);
 
+    public Trip getTrip(Long newId);
 }

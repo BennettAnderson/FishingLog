@@ -1,11 +1,15 @@
 package com.bennettanderson.model;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Trip {
     private long tripId;
     private String date = "-";
     private String location;
     private String weather = "-";
     private String comments = "-";
+    private List<Fish> fishList = new ArrayList<>();
 
     public Trip(String date, String location, String weather, String comments) {
         this.date = date;
@@ -18,6 +22,14 @@ public class Trip {
 
     public Trip(String location) {
         this.location = location;
+    }
+
+    public List<Fish> getFishList() {
+        return fishList;
+    }
+
+    public void setFishList(List<Fish> fishList) {
+        this.fishList = fishList;
     }
 
     public long getTripId() {

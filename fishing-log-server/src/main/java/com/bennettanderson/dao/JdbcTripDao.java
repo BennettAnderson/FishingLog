@@ -12,9 +12,11 @@ import java.util.List;
 @Component
 public class JdbcTripDao implements TripDao {
     private JdbcTemplate jdbcTemplate;
+    private FishDao fishDao;
 
-    public JdbcTripDao(DataSource dataSource) {
+    public JdbcTripDao(DataSource dataSource, FishDao fishDao) {
         jdbcTemplate = new JdbcTemplate(dataSource);
+        this.fishDao = new JdbcFishDao(dataSource);
     }
 
     @Override
@@ -36,7 +38,8 @@ public class JdbcTripDao implements TripDao {
         return getTrip(newId);
     }
 
-    private Trip getTrip(Long newId) {
+    @Override
+    public Trip getTrip(Long newId) {
         Trip trip = null;
         String sql = "SELECT trip_id, date, location, weather, comments " +
                 "FROM trip " +
@@ -55,6 +58,7 @@ public class JdbcTripDao implements TripDao {
         trip.setLocation(rowset.getString("location"));
         trip.setWeather(rowset.getString("weather"));
         trip.setComments(rowset.getString("comments"));
+        trip.setFishList(fishDao.getFishFromTrip(rowset.getLong("trip_id")));
         return trip;
     }
 }
