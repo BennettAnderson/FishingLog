@@ -1,0 +1,11 @@
+com\bennettanderson\Application.class
+com\bennettanderson\model\Fish.class
+com\bennettanderson\controller\TripController.class
+com\bennettanderson\model\Lure.class
+com\bennettanderson\model\Trip.class
+com\bennettanderson\view\MenuDrivenCLI.class
+com\bennettanderson\model\FishDao.class
+com\bennettanderson\view\Menu.class
+com\bennettanderson\model\TripDao.class
+com\bennettanderson\model\JdbcTripDao.class
+com\bennettanderson\model\JdbcFishDao.class
