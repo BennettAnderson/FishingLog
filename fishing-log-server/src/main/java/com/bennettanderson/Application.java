@@ -6,17 +6,21 @@ import org.apache.commons.dbcp2.BasicDataSource;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
+import org.springframework.context.annotation.Bean;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import javax.sql.DataSource;
 import java.util.*;
 
-@SpringBootApplication(exclude = { SecurityAutoConfiguration.class })
+@SpringBootApplication
 public class Application {
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
+
 }
+
 
 //    private static final String MAIN_MENU_OPTION_ADD_TRIP_REPORT = "Add a trip report";
 //    private static final String MAIN_MENU_OPTION_PRINT_REPORTS = "View trip reports";
@@ -78,7 +82,7 @@ public class Application {
 //
 //    }
 
-    //    public void populateTripList(File inputFile) {
+//    public void populateTripList(File inputFile) {
 //        try (Scanner tripScanner = new Scanner(inputFile)) {
 //            while (tripScanner.hasNextLine()) {
 //                String line = tripScanner.nextLine();

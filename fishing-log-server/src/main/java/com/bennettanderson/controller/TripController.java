@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin
 @RestController
 public class TripController {
     private FishDao fishDao;
@@ -18,7 +19,7 @@ public class TripController {
         this.tripDao = tripDao;
     }
 
-    @RequestMapping(path = "trips", method = RequestMethod.GET)
+    @RequestMapping(path = "/trips", method = RequestMethod.GET)
     List<Trip> getTrips() {
         return tripDao.getAllTrips();
     }
