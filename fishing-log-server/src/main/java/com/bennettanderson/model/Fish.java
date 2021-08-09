@@ -1,16 +1,16 @@
 package com.bennettanderson.model;
 
 public class Fish {
-    private long fishId;
+    private int fishId;
     private String species;
-    private long length;
+    private int length;
     private String lure;
 
     public Fish(String species) {
         this.species = species;
     }
 
-    public Fish(String species, long length, String lure) {
+    public Fish(String species, int length, String lure) {
         this.species = species;
         this.length = length;
         this.lure = lure;
@@ -28,15 +28,15 @@ public class Fish {
         this.species = species;
     }
 
-    public long getFishId() {
+    public int getFishId() {
         return fishId;
     }
 
-    public void setFishId(long fishId) {
+    public void setFishId(int fishId) {
         this.fishId = fishId;
     }
 
-    public void setLength(long length) {
+    public void setLength(int length) {
         this.length = length;
     }
 
@@ -48,7 +48,7 @@ public class Fish {
         return species;
     }
 
-    public long getLength() {
+    public int getLength() {
         return length;
     }
 

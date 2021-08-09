@@ -21,14 +21,14 @@ public class JdbcFishDao implements FishDao {
     }
 
     @Override
-    public void addFish(Fish fish, Long tripId) {
+    public void addFish(Fish fish, int tripId, int userId) {
         String sql = "INSERT INTO fish (trip_id, species, length, lure) " +
                 "VALUES (?, ?, ?, ?);";
         jdbcTemplate.update(sql, tripId, fish.getSpecies(), fish.getLength(), fish.getLure());
     }
 
     @Override
-    public List<Fish> getFishFromTrip(Long tripId) {
+    public List<Fish> getFishFromTrip(int tripId, int userId) {
         List<Fish> fishes = new ArrayList<>();
         String sql = "SELECT fish_id, species, length, lure FROM fish WHERE trip_id = ?;";
         SqlRowSet results = jdbcTemplate.queryForRowSet(sql, tripId);
@@ -39,7 +39,7 @@ public class JdbcFishDao implements FishDao {
     }
 
     @Override
-    public List<Fish> getAllFish() {
+    public List<Fish> getAllFish(int userId) {
         List<Fish> fishes = new ArrayList<>();
         String sql = "SELECT fish_id, species, length, lure FROM fish ORDER BY length DESC;";
         SqlRowSet results = jdbcTemplate.queryForRowSet(sql);
@@ -50,7 +50,7 @@ public class JdbcFishDao implements FishDao {
     }
 
     @Override
-    public String getLocationFromFish(long fishId) {
+    public String getLocationFromFish(int fishId, int userId) {
         String location = null;
         String sql = "SELECT location FROM trip JOIN fish ON trip.trip_id = fish.trip_id " +
                 "WHERE fish_id = ?;";
@@ -63,9 +63,9 @@ public class JdbcFishDao implements FishDao {
 
     private Fish mapRowToFish(SqlRowSet rowSet) {
         Fish fish = new Fish();
-        fish.setFishId(rowSet.getLong("fish_id"));
+        fish.setFishId(rowSet.getInt("fish_id"));
         fish.setSpecies(rowSet.getString("species"));
-        fish.setLength(rowSet.getLong("length"));
+        fish.setLength(rowSet.getInt("length"));
         fish.setLure(rowSet.getString("lure"));
         return fish;
     }

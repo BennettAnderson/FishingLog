@@ -6,11 +6,11 @@ import java.util.List;
 
 public interface FishDao {
 
-    public void addFish(Fish fish, Long tripId);
+    void addFish(Fish fish, int tripId, int userId);
 
-    public List<Fish> getFishFromTrip(Long tripId);
+    List<Fish> getFishFromTrip(int tripId, int userId);
 
-    public List<Fish> getAllFish();
+    List<Fish> getAllFish(int userId);
 
-    public String getLocationFromFish(long fishId);
+    String getLocationFromFish(int fishId, int userId);
 }

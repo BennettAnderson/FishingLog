@@ -6,9 +6,9 @@ import java.util.List;
 
 public interface TripDao {
 
-    public List<Trip> getAllTrips();
+    public List<Trip> getAllTrips(int userId);
 
-    public Trip addTrip(Trip trip);
+    public Long addTrip(Trip trip, int userId);
 
-    public Trip getTrip(Long newId);
+    public Trip getTrip(int newId, int userId);
 }

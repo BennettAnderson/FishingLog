@@ -5,7 +5,7 @@ import Login from '../views/Login.vue'
 import Logout from '../views/Logout.vue'
 import Register from '../views/Register.vue'
 import store from '../store/index'
-import TripList from '@/views/Trips.vue'
+import Trips from '@/views/Trips.vue'
 import AddTrip from '@/views/AddTrip.vue'
 
 Vue.use(Router)
@@ -58,14 +58,14 @@ const router = new Router({
     {
       path: "/trips",
       name: "trips",
-      component: TripList,
+      component: Trips,
       meta: {
         requiresAuth: true
       }
     },
     {
       path: "/add-trip",
-      name: "create-trip",
+      name: "add-trip",
       component: AddTrip,
       meta: {
         requiresAuth: true
