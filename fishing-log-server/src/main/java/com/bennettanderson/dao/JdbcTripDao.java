@@ -1,6 +1,7 @@
 package com.bennettanderson.dao;
 
 import com.bennettanderson.model.Trip;
+import com.bennettanderson.model.TripDTO;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.support.rowset.SqlRowSet;
 import org.springframework.stereotype.Component;
@@ -22,8 +23,8 @@ public class JdbcTripDao implements TripDao {
     @Override
     public List<Trip> getAllTrips(int userId) {
         List<Trip> trips = new ArrayList<>();
-        String sql = "SELECT trip_id, date, location, weather, comments FROM trip WHERE user_id = ?;";
-        SqlRowSet results = jdbcTemplate.queryForRowSet(sql);
+        String sql = "SELECT trip_id, date, location, weather, comments FROM trip WHERE user_id = ? ORDER BY date desc;";
+        SqlRowSet results = jdbcTemplate.queryForRowSet(sql, userId);
         while (results.next()) {
             trips.add(mapRowToTrip(results, userId));
         }
@@ -31,11 +32,11 @@ public class JdbcTripDao implements TripDao {
     }
 
     @Override
-    public Long addTrip(Trip trip, int userId) {
+    public int addTrip(TripDTO tripDTO, int userId) {
         String sql = "INSERT INTO trip (user_id, date, location, weather, comments) " +
-                "VALUES (?, ?, ?, ?, ?) RETURNING trip_id;";
-        Long newId = jdbcTemplate.queryForObject(sql, Long.class, userId, trip.getDate(), trip.getLocation(), trip.getWeather(), trip.getComments());
-        return newId;
+                "VALUES (?, ?::date, ?, ?, ?) RETURNING trip_id;";
+        Integer tripId = jdbcTemplate.queryForObject(sql, Integer.class, userId, tripDTO.getDate(), tripDTO.getLocation(), tripDTO.getWeather(), tripDTO.getComments());
+        return tripId;
     }
 
     @Override

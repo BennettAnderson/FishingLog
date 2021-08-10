@@ -5,6 +5,7 @@ public class Fish {
     private String species;
     private int length;
     private String lure;
+    private int tripId;
 
     public Fish(String species) {
         this.species = species;
@@ -22,6 +23,14 @@ public class Fish {
 
     public String fishDataString() {
         return species + ", " + length + ", " + lure + "^";
+    }
+
+    public int getTripId() {
+        return tripId;
+    }
+
+    public void setTripId(int tripId) {
+        this.tripId = tripId;
     }
 
     public void setSpecies(String species) {

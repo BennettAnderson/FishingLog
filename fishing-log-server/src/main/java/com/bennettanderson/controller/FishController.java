@@ -5,6 +5,7 @@ import com.bennettanderson.dao.FishDao;
 import com.bennettanderson.dao.TripDao;
 import com.bennettanderson.dao.UserDao;
 import com.bennettanderson.model.Fish;
+import com.bennettanderson.model.FishDTO;
 import org.springframework.web.bind.annotation.*;
 
 import java.security.Principal;
@@ -33,8 +34,8 @@ public class FishController {
         return fishDao.getFishFromTrip(id, userDao.findIdByUsername(principal.getName()));
     }
 
-    @RequestMapping(path = "/add-fish/{tripId}", method = RequestMethod.POST)
-    public void addFish (@RequestBody Fish fish, @PathVariable int tripId, Principal principal) {
-        fishDao.addFish(fish, tripId, userDao.findIdByUsername(principal.getName()));
+    @RequestMapping(path = "/add-fish", method = RequestMethod.POST)
+    public void addFish (@RequestBody FishDTO fishDTO, Principal principal) {
+        fishDao.addFish(fishDTO, userDao.findIdByUsername(principal.getName()));
     }
 }

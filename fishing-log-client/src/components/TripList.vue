@@ -1,27 +1,13 @@
 <template>
   <div class="trip-list">
-    <table>
-      <thead>
-        <tr>
-          <th>Trip</th>
-          <th>Edit</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="trip in this.$store.state.trips" v-bind:key="trip.tripId">
-          <td width="80%">
-            <router-link v-bind:to="{ name: 'Trip', params: { id: trip.id } }"
-              >{{ trip.location }}: {{ trip.date }}</router-link
-            >
-          </td>
-          <td>
-            <router-link :to="{ name: 'EditTrip', params: { id: trip.id } }"
-              >Edit</router-link
-            >
-          </td>
-        </tr>
-      </tbody>
-    </table>
+    <h1>Trips</h1>
+    <ul v-for="trip in this.trips" v-bind:key="trip.tripId">
+      <router-link
+        v-bind:tripId="trip.tripId"
+        :to="{ name: 'trip', params: { tripId: trip.tripId } }"
+        >{{ trip.location }} on {{ trip.date }}</router-link
+      >
+    </ul>
   </div>
 </template>
 
@@ -30,17 +16,22 @@ import tripService from "@/services/TripService.js";
 
 export default {
   name: "trip-list",
+  data() {
+    return {
+      trips: [],
+    };
+  },
   methods: {
     getTrips() {
       tripService.getAllTrips().then((response) => {
+        this.trips = response.data;
         this.$store.commit("SET_TRIPS", response.data);
       });
     },
-    
   },
   created() {
-      this.getTrips();
-    },
+    this.getTrips();
+  },
 };
 </script>
 

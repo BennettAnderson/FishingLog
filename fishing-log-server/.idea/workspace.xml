@@ -10,24 +10,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfab3743-adc5-44dc-8c10-a8cac8f915be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bennettanderson/controller/FishController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bennettanderson/model/FishDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bennettanderson/model/TripDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../fishing-log-client/src/components/CreateTrip.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../fishing-log-client/src/components/CreateTrip.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fishing-log-client/src/components/TripList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../fishing-log-client/src/components/TripList.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../fishing-log-client/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../fishing-log-client/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fishing-log-client/src/services/FishService.js" beforeDir="false" afterPath="$PROJECT_DIR$/../fishing-log-client/src/services/FishService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fishing-log-client/src/services/TripService.js" beforeDir="false" afterPath="$PROJECT_DIR$/../fishing-log-client/src/services/TripService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fishing-log-client/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../fishing-log-client/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fishing-log-client/src/views/Trips.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../fishing-log-client/src/views/Trips.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/FishingLog_jar/FishingLog.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FishingLog_jar/FishingLog.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bennettanderson/controller/FishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bennettanderson/controller/FishController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bennettanderson/controller/TripController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bennettanderson/controller/TripController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bennettanderson/dao/FishDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bennettanderson/dao/FishDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bennettanderson/dao/JdbcFishDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bennettanderson/dao/JdbcFishDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bennettanderson/dao/JdbcTripDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bennettanderson/dao/JdbcTripDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bennettanderson/dao/TripDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bennettanderson/dao/TripDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bennettanderson/model/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bennettanderson/model/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bennettanderson/model/FishDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bennettanderson/model/FishDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/controller/FishController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/controller/FishController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/controller/TripController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/controller/TripController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/dao/FishDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/dao/FishDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/dao/JdbcFishDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/dao/JdbcFishDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/dao/JdbcTripDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/dao/JdbcTripDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/dao/TripDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/dao/TripDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/model/Fish.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/model/Fish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/model/FishDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/model/FishDTO.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +129,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/bennettanderson/dao" />
+    <property name="last_opened_file_path" value="$USER_HOME$/workspace/module2-capstone-java-team-5/java/tenmo-server" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />

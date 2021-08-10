@@ -8,6 +8,10 @@ export default {
 
     saveTrip(trip) {
         return axios.post('/trip', trip)
+    },
+
+    getTrip(tripId) {
+        return axios.get(`/trip/${tripId}`)
     }
 
 }

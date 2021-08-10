@@ -3,6 +3,7 @@ package com.bennettanderson.dao;
 
 import com.bennettanderson.dao.FishDao;
 import com.bennettanderson.model.Fish;
+import com.bennettanderson.model.FishDTO;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.support.rowset.SqlRowSet;
 import org.springframework.stereotype.Component;
@@ -21,10 +22,10 @@ public class JdbcFishDao implements FishDao {
     }
 
     @Override
-    public void addFish(Fish fish, int tripId, int userId) {
-        String sql = "INSERT INTO fish (trip_id, species, length, lure) " +
-                "VALUES (?, ?, ?, ?);";
-        jdbcTemplate.update(sql, tripId, fish.getSpecies(), fish.getLength(), fish.getLure());
+    public void addFish(FishDTO fishDTO, int userId) {
+        String sql = "INSERT INTO fish (trip_id, species, length, lure, user_id) " +
+                "VALUES (?, ?, ?, ?, ?);";
+        jdbcTemplate.update(sql, fishDTO.getTripId(), fishDTO.getSpecies(), fishDTO.getLength(), fishDTO.getLure(), userId);
     }
 
     @Override

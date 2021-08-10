@@ -5,8 +5,11 @@ import com.bennettanderson.dao.UserDao;
 import com.bennettanderson.model.Fish;
 import com.bennettanderson.model.Trip;
 import com.bennettanderson.dao.TripDao;
+import com.bennettanderson.model.TripDTO;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.security.Principal;
 import java.util.List;
 
@@ -33,8 +36,10 @@ public class TripController {
         return tripDao.getTrip(id, userDao.findIdByUsername(principal.getName()));
     }
 
+    @ResponseStatus(HttpStatus.CREATED)
     @RequestMapping(path = "/trip", method = RequestMethod.POST)
-    public Long addTrip(@RequestBody Trip trip, Principal principal) {
-        return tripDao.addTrip(trip, userDao.findIdByUsername(principal.getName()));
+    public int addTrip(@Valid @RequestBody TripDTO tripDTO, Principal principal) {
+        int userId = userDao.findIdByUsername(principal.getName());
+        return tripDao.addTrip(tripDTO, userId);
     }
 }

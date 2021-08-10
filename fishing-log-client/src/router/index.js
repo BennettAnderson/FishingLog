@@ -7,6 +7,7 @@ import Register from '../views/Register.vue'
 import store from '../store/index'
 import Trips from '@/views/Trips.vue'
 import AddTrip from '@/views/AddTrip.vue'
+import TripDetailView from '@/views/TripDetailView.vue'
 
 Vue.use(Router)
 
@@ -67,6 +68,14 @@ const router = new Router({
       path: "/add-trip",
       name: "add-trip",
       component: AddTrip,
+      meta: {
+        requiresAuth: true
+      }
+    },
+    {
+      path: "/trip/:tripId",
+      name: "trip",
+      component: TripDetailView,
       meta: {
         requiresAuth: true
       }
