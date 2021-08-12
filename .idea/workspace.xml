@@ -5,9 +5,217 @@
       <artifact name="FishingLog:jar" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bfab3743-adc5-44dc-8c10-a8cac8f915be" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/artifacts/FishingLog_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__io_jsonwebtoken_jjwt_api_0_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__io_jsonwebtoken_jjwt_impl_0_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__io_jsonwebtoken_jjwt_jackson_0_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_apache_commons_commons_dbcp2_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_35.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_35.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_postgresql_postgresql_42_2_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jdbc_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_data_spring_data_jdbc_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_data_spring_data_relational_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_spring_aop_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_spring_beans_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_spring_context_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_spring_core_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_spring_expression_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_spring_test_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_spring_tx_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_spring_web_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/FishDB.psql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/FishDBInitializer.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/FishingLog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/fishdb.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/fishdb.db-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/out/artifacts/FishingLog_jar/FishingLog.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/savedTrips.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/src/com/techelevator/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/src/main/java/com/bennettanderson/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/src/main/java/com/bennettanderson/controller/TripController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/src/main/java/com/bennettanderson/dao/FishDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/src/main/java/com/bennettanderson/dao/JdbcFishDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/src/main/java/com/bennettanderson/dao/JdbcTripDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/src/main/java/com/bennettanderson/dao/TripDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/src/main/java/com/bennettanderson/model/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/src/main/java/com/bennettanderson/model/Lure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/src/main/java/com/bennettanderson/model/Trip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/src/main/java/com/bennettanderson/security/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/src/main/java/com/bennettanderson/view/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/src/main/java/com/bennettanderson/view/MenuDrivenCLI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/src/main/resources/FishDBInitializer.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/target/FishingLog-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/target/classes/FishDBInitializer.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/target/classes/com/bennettanderson/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/target/classes/com/bennettanderson/controller/TripController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/target/classes/com/bennettanderson/dao/FishDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/target/classes/com/bennettanderson/dao/JdbcFishDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/target/classes/com/bennettanderson/dao/JdbcTripDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/target/classes/com/bennettanderson/dao/TripDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/target/classes/com/bennettanderson/model/Fish.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/target/classes/com/bennettanderson/model/Lure.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/target/classes/com/bennettanderson/model/Trip.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/target/classes/com/bennettanderson/security/WebSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/target/classes/com/bennettanderson/view/Menu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/target/classes/com/bennettanderson/view/MenuDrivenCLI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fishing-log-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/FishingLog_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_dbcp2_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FishDB.psql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FishDBInitializer.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FishingLog.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fishdb.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fishdb.db-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FishingLog_jar/FishingLog.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/savedTrips.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/techelevator/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/techelevator/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/techelevator/model/Fish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/techelevator/model/FishDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/techelevator/model/JdbcFishDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/techelevator/model/JdbcTripDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/techelevator/model/Lure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/techelevator/model/Trip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/techelevator/model/TripDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/techelevator/view/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/techelevator/view/MenuDrivenCLI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/FishDBInitializer.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FishDBInitializer.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/techelevator/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/techelevator/model/Fish.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/techelevator/model/FishDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/techelevator/model/JdbcFishDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/techelevator/model/JdbcTripDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/techelevator/model/Lure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/techelevator/model/Trip.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/techelevator/model/TripDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/techelevator/view/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/techelevator/view/MenuDrivenCLI.class" beforeDir="false" />
+>>>>>>> b0bbf1309a444edc3a5749fc1ccc5eac530ee98c
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +225,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -24,7 +233,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1t5pXigYP1NF2eqFVpjjPbpWbyJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
@@ -85,22 +305,29 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/bennettanderson/model" />
     <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Student\SideProjects\FishingLog\src\main\java\com\bennettanderson\model\" />
+      <recent name="C:\Users\Student\SideProjects\FishingLog\src\main\java\com\bennettanderson\" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.techelevator.Application" />
+      <option name="MAIN_CLASS_NAME" value="com.bennettanderson.Application" />
       <module name="FishingLog" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.techelevator.*" />
+          <option name="PATTERN" value="com.bennettanderson.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,8 +356,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Application" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="JAR Application.FishingLogJar" />
     </list>
     <recent_temporary>
@@ -162,5 +389,18 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.jdbc.InvalidResultSetAccessException" package="org.springframework.jdbc" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
