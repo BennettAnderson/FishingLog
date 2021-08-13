@@ -10,13 +10,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfab3743-adc5-44dc-8c10-a8cac8f915be" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../fishing-log-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../fishing-log-client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fishing-log-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../fishing-log-client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fishing-log-client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../fishing-log-client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fishing-log-client/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../fishing-log-client/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fishing-log-client/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../fishing-log-client/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fishing-log-client/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../fishing-log-client/src/views/Home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FishingLog_jar/FishingLog.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FishingLog_jar/FishingLog.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/controller/AuthenticationController$LoginResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/controller/AuthenticationController$LoginResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/controller/AuthenticationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/controller/AuthenticationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/controller/FishController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/controller/FishController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/controller/TripController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/controller/TripController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/dao/FishDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/dao/FishDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/dao/JdbcFishDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/dao/JdbcFishDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/dao/JdbcTripDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/dao/JdbcTripDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/dao/JdbcUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/dao/JdbcUserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/dao/TripDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/dao/TripDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/model/Authority.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/model/Authority.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/model/Fish.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/model/Fish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/model/FishDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/model/FishDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/model/LoginDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/model/LoginDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/model/Lure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/model/Lure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/model/RegisterUserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/model/RegisterUserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/model/Trip.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/model/Trip.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/model/TripDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/model/TripDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/model/UserAlreadyExistsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/model/UserAlreadyExistsException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/security/JwtAccessDeniedHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/security/JwtAccessDeniedHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/security/JwtAuthenticationEntryPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/security/JwtAuthenticationEntryPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/security/SecurityUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/security/SecurityUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/security/UserModelDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/security/UserModelDetailsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/security/UserNotActivatedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/security/UserNotActivatedException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/security/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/security/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/security/jwt/JWTConfigurer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/security/jwt/JWTConfigurer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/security/jwt/JWTFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/security/jwt/JWTFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/security/jwt/TokenProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/security/jwt/TokenProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/view/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/view/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bennettanderson/view/MenuDrivenCLI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bennettanderson/view/MenuDrivenCLI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/user.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +139,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/workspace/module2-capstone-java-team-5/java/tenmo-server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
