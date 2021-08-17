@@ -9,7 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfab3743-adc5-44dc-8c10-a8cac8f915be" name="Default Changelist" comment="" />
+    <list default="true" id="bfab3743-adc5-44dc-8c10-a8cac8f915be" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../fishing-log-client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../fishing-log-client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fishing-log-client/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../fishing-log-client/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fishing-log-client/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../fishing-log-client/src/components/HelloWorld.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fishing-log-client/src/plugins/vuetify.js" beforeDir="false" afterPath="$PROJECT_DIR$/../fishing-log-client/src/plugins/vuetify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FishingLog_jar/FishingLog.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FishingLog_jar/FishingLog.jar" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +113,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
